@@ -44468,11 +44468,10 @@ $2(a,b){var s,r,q,p=b.b,o=p==null
 if(!o){s=this.a
 s=s.r!=null&&!s.a.d}else s=!1
 if(s){r=o?null:p.ax
-p=r==null
-if(!p&&r.length!==0){q=p?null:B.b.WO(r,new A.axh(this.a))
-if(q!=null){A.tW(q.b)
-p=this.a
-p.ac(new A.axi(p,q,b))}}}},
+if(r!=null&&r.length!==0){p=this.a
+q=(r&&B.b).WO(r,new A.axh(p))
+A.tW(q.b)
+p.ac(new A.axi(p,q,b))}}},
 $S:249}
 A.axh.prototype={
 $1(a){var s=this.a.r
@@ -44487,7 +44486,7 @@ if(s==="OptionA"){s=r.c.b
 p.d=A.k(s==null?q:s.d)}else if(s==="OptionB"){s=r.c.b
 p.d=A.k(s==null?q:s.e)}else if(s==="OptionC"){s=r.c.b
 p.d=A.k(s==null?q:s.f)}else if(s==="OptionD"){s=r.c.b
-p.d=A.k(s==null?q:s.r)}},
+p.d=A.k(s==null?q:s.r)}else p.d=null},
 $S:0}
 A.axt.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=null,d="NA"
@@ -44544,6 +44543,7 @@ return A.fb(s,B.D,B.S,B.X,0)}}},
 $S:369}
 A.axj.prototype={
 $0(){var s=this.a
+if(s.w)return
 s.ac(new A.axe(s,this.b))},
 $S:0}
 A.axe.prototype={
@@ -44553,6 +44553,7 @@ s.f="aCount"},
 $S:0}
 A.axk.prototype={
 $0(){var s=this.a
+if(s.w)return
 s.ac(new A.axd(s,this.b))},
 $S:0}
 A.axd.prototype={
@@ -44562,6 +44563,7 @@ s.f="bCount"},
 $S:0}
 A.axl.prototype={
 $0(){var s=this.a
+if(s.w)return
 s.ac(new A.axc(s,this.b))},
 $S:0}
 A.axc.prototype={
@@ -44571,6 +44573,7 @@ s.f="cCount"},
 $S:0}
 A.axm.prototype={
 $0(){var s=this.a
+if(s.w)return
 s.ac(new A.axb(s,this.b))},
 $S:0}
 A.axb.prototype={
@@ -44621,7 +44624,7 @@ q=q==null?r:q.w
 p.push(A.bi(A.k(q),r,r,r,A.R(a).p1.r.qT(r,r,r),r,r))}return new A.ua(A.fb(p,B.D,B.S,B.bu,5),r)},
 $S:368}
 A.axo.prototype={
-$0(){},
+$0(){self.window.open("https://www.instagram.com/vineeth.kolichal/?hl=en","_blank")},
 $S:0}
 A.MT.prototype={
 J(a){return new A.vM(new A.a5e(this),null)}}
@@ -44751,10 +44754,10 @@ k=t.p
 l=A.e6(A.b([l,A.bi("And",i,i,i,A.SL(a,f.a(A.R(a).c.h(0,A.aC(g)))==null?i:B.k,i),i,i),A.hg(A.a63())],k),B.D,B.S,B.X,5)
 return A.rO(i,A.kR(B.bo,A.b([h,s,A.cq(new A.dv(new A.a5(0,600,0,1/0),A.F2(new A.bH(B.ek,A.fb(A.b([r,q,A.dm(i,A.e6(A.b([n,A.hg(A.fb(A.b([m,l,A.bi("For more updates, Follow us on",i,i,i,A.SL(a,f.a(A.R(a).c.h(0,A.aC(g)))==null?i:B.k,i),B.eZ,i),A.e6(A.b([A.vD(!1,i,!0,A.qF("assets/ytb.png",i,80),i,!0,i,i,i,i,i,i,i,i,i,new A.apS(),i,i,i,i,i),new A.ci(i,50,A.aN4(),i),A.vD(!1,i,!0,A.qF("assets/insta.png",i,50),i,!0,i,i,i,i,i,i,i,i,i,new A.apT(),i,i,i,i,i)],k),B.D,B.cQ,B.X,10)],k),B.D,B.cQ,B.X,0))],k),B.D,B.cQ,B.X,16),B.r,i,new A.a5(0,1/0,200,1/0),new A.d2(p,i,i,o,i,i,B.al),i,i,i,new A.at(16,16,16,16),i,i,j)],k),B.D,B.S,B.X,0),i),i,i,B.a_),i),i,i)],k),B.z,B.bL))}}
 A.apR.prototype={
-$0(){},
+$0(){self.window.open("https://chat.whatsapp.com/D2hNHAOXcazAC5wfoxDyQ6","_blank")},
 $S:0}
 A.apS.prototype={
-$0(){},
+$0(){self.window.open("https://www.youtube.com/@hridhyammalayalam","_blank")},
 $S:0}
 A.apT.prototype={
 $0(){},
