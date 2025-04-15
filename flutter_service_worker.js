@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"main.dart.js": "5b055fec6ed5aecb4ad9cb70c7ba3c8a",
+const RESOURCES = {"main.dart.js": "e3335179ade86e1ffac5bf8333805a8b",
 "canvaskit/skwasm_st.wasm": "56c3973560dfcbf28ce47cebe40f3206",
 "canvaskit/skwasm_st.js": "d1326ceef381ad382ab492ba5d96f04d",
 "canvaskit/skwasm.wasm": "f0dfd99007f989368db17c9abeed5a49",
@@ -33,14 +33,14 @@ const RESOURCES = {"main.dart.js": "5b055fec6ed5aecb4ad9cb70c7ba3c8a",
 "assets/assets/insta.png": "9c37b80778cc6d02014a4c6bf72e0b34",
 "assets/assets/light_black_shades_wood_hd_wooden.jpg": "ac16bb57fdce3adb4ad06ba3fc32c793",
 "assets/assets/logo.png": "f791141cb7f253239f94c4d79f0b8e3c",
-"assets/fonts/MaterialIcons-Regular.otf": "48163ccb05a75235cd47d6f8b3bc798f",
+"assets/fonts/MaterialIcons-Regular.otf": "d5fec529ec9a5da419f9135850e9d55a",
 "assets/AssetManifest.bin": "2cb52da9f8b0d6cf004b35a0dfbbfbb3",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "33b7d9392238c04c131b6ce224e13711",
 "flutter.js": "76f08d47ff9f5715220992f993002504",
 "index.html": "08ca76644a805d3f718ace0fe5a83d91",
 "/": "08ca76644a805d3f718ace0fe5a83d91",
-"flutter_bootstrap.js": "3f892da62b2d429064be21c07d1e0300",
+"flutter_bootstrap.js": "ee377baa340c01baff39e76410f0b720",
 "version.json": "11e1a177d57c5da2bc6e3a6acc3010f4",
 "manifest.json": "73fb3b15e459ce558109415730c0d52a"};
 // The application shell files that are downloaded before a service worker can
