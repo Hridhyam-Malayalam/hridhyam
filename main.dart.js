@@ -51928,7 +51928,7 @@ A.aKq.prototype={
 $0(){this.a.e=!0},
 $S:0}
 A.aKI.prototype={
-$0(){},
+$0(){self.window.open("https://www.instagram.com/vineeth.kolichal/?hl=en","_blank")},
 $S:0}
 A.Sm.prototype={
 H(a){return new A.q1(new A.adq(this),null)}}
@@ -52075,10 +52075,10 @@ o=t.p
 p=A.bQ(A.a([p,A.aq("And",m,m,m,m,m,A.r1(a,j.a(A.w(a).c.h(0,A.a5(k)))==null?m:B.k,m),m,m,m),A.cW(A.xD(m,m),1)],o),B.n,B.r,B.p,5)
 return A.lc(m,m,A.hv(B.ba,A.a([l,i,A.bW(new A.ds(new A.a6(0,600,0,1/0),A.Ai(new A.b1(B.cr,A.c1(A.a([h,g,A.bM(m,A.bQ(A.a([r,A.cW(A.c1(A.a([q,p,A.aq("For more updates, Follow us on",m,m,m,m,m,A.r1(a,j.a(A.w(a).c.h(0,A.a5(k)))==null?m:B.k,m),B.cB,m,m),A.bQ(A.a([A.kZ(!1,m,!0,A.u5("assets/ytb.png",m,80),m,!0,m,m,m,m,m,m,m,m,m,new A.aAE(),m,m,m,m,m),new A.bo(m,50,A.aAo(m,m),m),A.kZ(!1,m,!0,A.u5("assets/insta.png",m,50),m,!0,m,m,m,m,m,m,m,m,m,new A.aAF(),m,m,m,m,m)],o),B.n,B.bl,B.p,10)],o),B.n,B.bl,B.p,0),1)],o),B.n,B.bl,B.p,16),B.l,m,new A.a6(0,1/0,200,1/0),new A.bD(f,m,m,s,m,m,m,B.P),m,m,m,new A.ag(16,16,16,16),m,m,n)],o),B.n,B.r,B.p,0),m),m,B.S,m,m,B.a2),m),m,m)],o),B.A,B.aY,m),m)}}
 A.aAD.prototype={
-$0(){},
+$0(){self.window.open("https://chat.whatsapp.com/D2hNHAOXcazAC5wfoxDyQ6","_blank")},
 $S:0}
 A.aAE.prototype={
-$0(){},
+$0(){self.window.open("https://www.youtube.com/@hridhyammalayalam","_blank")},
 $S:0}
 A.aAF.prototype={
 $0(){},
