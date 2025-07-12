@@ -60526,7 +60526,7 @@ A.bfU.prototype={
 $2(a,b){return new A.b_(null,10,null,null)},
 $S:56}
 A.xl.prototype={
-Z(){return new A.ak4(new A.cz(Date.now(),0,!1),A.a(["All","Malayalam","General"],t.s))}}
+Z(){return new A.ak4(new A.cz(Date.now(),0,!1),A.a(["All","Malayalam","General","Net","Premium"],t.s))}}
 A.ak4.prototype={
 G(a){var s=null
 return A.jo(A.pX(s,s,s,s,s,s,s,s,s,s,s,A.a9("Find Score",s,s,s,s,s,s,s,s,s),s),s,A.pZ(new A.b7m(this),new A.b7n(),t.VF,t.oa),s)}}
@@ -62037,36 +62037,39 @@ s.toString
 return new A.yK(s,null)},
 $S:832}
 A.bdn.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k=null,j=this.a,i=!1
-if(!j.a.d){s=b.b
-if((s==null?k:s.b)==="malayalam"){i=A.dd(a,!1,t.WU).c.b
-i=(i==null?k:i.w)!==!0}}if(i)A.d8(a,!1).ajT(A.ya(new A.bd7(),!1,k,t.z),new A.bd8())
-else{i=t.WU
-s=A.dd(a,!1,i).c.b
-r=s==null?k:s.x
-i=A.dd(a,!1,i).c.b
-q=i==null?k:i.b
-if(r!=null){p=A.bBY(r)
-i=p!=null
-if(i&&p<=0){i=$.aT
-o=(i==null?$.aT=$.cE():i).dI("[DEFAULT]")
-A.bu(o,$.d0(),!0)
-i=A.fh(new A.cd(o))
-i=A.f6(i,i.gft().fA("users")).he(q)
+$2(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=this.a,h=!1
+if(!i.a.d){s=b.b
+r=s==null
+if((r?j:s.b)!=="net")s=(r?j:s.b)==="premium"
+else s=!0
+if(s){h=A.dd(a,!1,t.WU).c.b
+h=(h==null?j:h.w)!==!0}}if(h)A.d8(a,!1).ajT(A.ya(new A.bd7(),!1,j,t.z),new A.bd8())
+else{h=t.WU
+s=A.dd(a,!1,h).c.b
+q=s==null?j:s.x
+h=A.dd(a,!1,h).c.b
+p=h==null?j:h.b
+if(q!=null){o=A.bBY(q)
+h=o!=null
+if(h&&o<=0){h=$.aT
+n=(h==null?$.aT=$.cE():h).dI("[DEFAULT]")
+A.bu(n,$.d0(),!0)
+h=A.fh(new A.cd(n))
+h=A.f6(h,h.gft().fA("users")).he(p)
 s=A.T2(A.T(["isPremium",!1,"endDate",null],t.C,t.X))
 s.toString
-i.a.cY(s).bS(new A.bdb(a),t.P)}else if(i&&p===1)A.wC(k,k,!0,k,new A.bdc(),a,k,!0,!0,t.z)}}if(b.e){i=j.d
-if(i!=null&&b.b!=null){n=B.ac.jN(B.bZ.dQ(i))
-i=b.b.w
-i.toString
+h.a.cY(s).bS(new A.bdb(a),t.P)}else if(h&&o===1)A.wC(j,j,!0,j,new A.bdc(),a,j,!0,!0,t.z)}}if(b.e){h=i.d
+if(h!=null&&b.b!=null){m=B.ac.jN(B.bZ.dQ(h))
+h=b.b.w
+h.toString
 s=t.z
-i=A.ya(new A.bdd(b,n===B.ac.jN(B.bZ.dQ(i))),!0,k,s)
-A.d8(a,!1).q5(i,s)}}i=b.b
-s=i==null
-if(!s&&j.r!=null&&!j.a.d){m=s?k:i.ax
-if(m!=null&&m.length!==0){l=B.b.vA(m,new A.bde(j),new A.bdf())
-if(l.b!=null)j.V(new A.bdg(j,l,b))
-else j.V(new A.bdh(j))}}},
+h=A.ya(new A.bdd(b,m===B.ac.jN(B.bZ.dQ(h))),!0,j,s)
+A.d8(a,!1).q5(h,s)}}h=b.b
+s=h==null
+if(!s&&i.r!=null&&!i.a.d){l=s?j:h.ax
+if(l!=null&&l.length!==0){k=B.b.vA(l,new A.bde(i),new A.bdf())
+if(k.b!=null)i.V(new A.bdg(i,k,b))
+else i.V(new A.bdh(i))}}},
 $S:216}
 A.bd7.prototype={
 $1(a){return new A.yM(null)},
