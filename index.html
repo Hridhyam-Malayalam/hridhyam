@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -18,7 +19,8 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A perfect platform for all Malayalam competitive exams including UPST, HST, NET, SET, and K-TET.">
+  <meta name="description"
+    content="A perfect platform for all Malayalam competitive exams including UPST, HST, NET, SET, and K-TET.">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -27,12 +29,81 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>Hridhyam Malayalam</title>
   <link rel="manifest" href="manifest.json">
+  <!-- start -->
+  <script>
+    // The event that can be used to show the install prompt.
+    let deferredPrompt;
+
+    /**
+     * Listens for the 'beforeinstallprompt' event, which is fired by the browser
+     * when the PWA can be installed. This event is crucial for showing a custom
+     * install prompt.
+     *
+     * @param {Event} e The 'beforeinstallprompt' event object.
+     */
+    window.addEventListener('beforeinstallprompt', (e) => {
+      // Prevent the mini-infobar from appearing on mobile browsers.
+      // This allows you to control when and how the prompt is shown.
+      e.preventDefault();
+      // Stash the event so it can be triggered later by your Flutter app.
+      deferredPrompt = e;
+      console.log('beforeinstallprompt event fired. PWA can be installed.');
+
+      // You might want to update your UI here to indicate that the PWA
+      // can be installed (e.g., show a custom "Install App" button).
+      // For this example, we'll rely on the Flutter app to call showPWAInstallPrompt().
+    });
+
+    /**
+     * Checks if the app is running in standalone mode (i.e., installed as a PWA).
+     * This can be useful for conditionally displaying UI elements.
+     *
+     * @returns {boolean} True if the app is running in standalone mode, false otherwise.
+     */
+    window.isPWAInstalled = () => {
+      return window.matchMedia('(display-mode: standalone)').matches;
+    };
+
+    /**
+     * Triggers the PWA install prompt if the 'beforeinstallprompt' event has been
+     * captured and the prompt hasn't been shown yet.
+     * This function is intended to be called from your Flutter application.
+     */
+    window.showPWAInstallPrompt = async () => {
+      if (deferredPrompt) {
+        console.log('Attempting to show PWA install prompt...');
+        // Show the install prompt to the user.
+        deferredPrompt.prompt();
+
+        // Wait for the user to respond to the prompt.
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`User response to the install prompt: ${outcome}`);
+
+        // The deferredPrompt can only be used once. After it's used,
+        // it becomes null. If the user dismisses the prompt, you might
+        // not get another 'beforeinstallprompt' event until certain
+        // conditions are met (e.g., user clears browser data, or after
+        // a certain period).
+        deferredPrompt = null;
+
+        // You can add further logic here based on the user's outcome.
+        // For example, update your UI to hide the install button if 'accepted'.
+      } else {
+        console.log('No deferred prompt available. Either PWA is already installed, or the browser does not support installation, or the prompt was already shown/dismissed.');
+        // You might want to inform the user that the app is already installed
+        // or that the prompt is not available at this time.
+      }
+    };
+  </script>
+  <!-- end -->
 </head>
+
 <body>
   <script src="flutter_bootstrap.js" async></script>
 </body>
+
 </html>
