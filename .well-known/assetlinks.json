@@ -1,0 +1,35 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.hridhyam.app",
+      "sha256_cert_fingerprints": [
+        "62:8E:D9:08:6D:46:84:25:C3:30:6D:4A:1D:E6:78:1C:6B:66:DD:7D:E0:19:25:87:F7:A4:E5:4E:E8:52:C4:68"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://hridhyam.vercel.app"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.hridhyam.app",
+      "sha256_cert_fingerprints": [
+        "62:8E:D9:08:6D:46:84:25:C3:30:6D:4A:1D:E6:78:1C:6B:66:DD:7D:E0:19:25:87:F7:A4:E5:4E:E8:52:C4:68"
+      ]
+    }
+  }
+]

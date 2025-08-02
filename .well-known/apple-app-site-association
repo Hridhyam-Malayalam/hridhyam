@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "59296JEP86.com.kettle.dev",
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Matches any URL"
+          }
+        ]
+      }
+    ]
+  }
+}
