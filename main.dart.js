@@ -8880,7 +8880,7 @@ fa:function fa(){this.a=null},
 bFO(){var s=0,r=A.r(t.aq),q,p
 var $async$bFO=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:p=A.c([A.ng(new A.byN(),"/"),A.ng(new A.byO(),"/question"),A.ng(new A.byP(),"/auth"),A.ng(new A.byS(),"/addQuestion"),A.ng(new A.byT(),"/createNotes"),A.ng(new A.byU(),"/findScore"),A.ng(new A.byV(),"/note/:id"),A.ng(new A.byW(),"/home"),A.ng(new A.byX(),"/register"),A.ng(new A.byY(),"/classRoom/:id"),A.ng(new A.byZ(),"/verify"),A.ng(new A.byQ(),"/pin")],t.yo)
-q=A.c1a(!1,null,null,null,null,"/classRoom/KDHZX2pl7RmWlfOwgXiW",null,null,null,!1,null,!0,null,!1,new A.any(new A.b3t(p,new A.byR(),5)))
+q=A.c1a(!1,null,null,null,null,"/",null,null,null,!1,null,!0,null,!1,new A.any(new A.b3t(p,new A.byR(),5)))
 s=1
 break
 case 1:return A.p(q,r)}})
